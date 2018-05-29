@@ -1543,6 +1543,37 @@
                     {"intervals":"dynUint8"}
                 ],
                 "dir":1}
-        }
+        },
+        "lightLink": {
+            "scanReq": {
+                "params":[
+                    {"transactionId":"uint32"},
+                    {"zigbeeInfo":"uint8"},
+                    {"zllInfo":"uint8"}
+                ],
+                "dir":0},
+            "scanRsp": {
+                "params":[
+                    {"transactionId": "uint32"},
+                    {"rSSICorrection": "uint8"},
+                    {"zigbeeInfo": "uint8"},
+                    {"zllInfo": "uint8"},
+                    {"keyMask": "uint16"},
+                    {"responseId": "uint32"},
+                    {"extPanId": "uint64"},
+                    {"nwkUpdateId": "uint8"},
+                    {"logicalChannel": "uint8"},
+                    {"panId": "uint16"},
+                    {"nwkAddr": "uint16"},
+                    {"numberSubDevices": "uint8"},
+                    {"totalGroupIds": "uint8"},
+                    {"endpoint": "uint8"},
+                    {"profileId": "uint16"},
+                    {"deviceId": "uint16"},
+                    {"version": "uint8"},
+                    {"groupIdCount": "uint8"}
+                ],
+                "dir":1}
+        },
     }
 }
