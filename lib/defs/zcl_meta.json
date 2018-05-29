@@ -1574,6 +1574,6 @@
                     {"groupIdCount": "uint8"}
                 ],
                 "dir":1}
-        },
+        }
     }
 }
